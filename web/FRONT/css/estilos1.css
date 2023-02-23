@@ -1,0 +1,126 @@
+.elemento1 {
+    border: 2px solid #333333;
+}
+
+.elemento2 {
+    border-left: 2px solid #333333; 
+    border-right: 4px dashed red; 
+    border-top: 1px dotted blue; 
+    border-bottom: 3px solid;
+}
+
+.elemento3 {
+    border: 2px solid #333333; 
+    border-radius: 10px;
+}
+
+.elemento4 {
+    background-image: url('https://i.natgeofe.com/n/4f5aaece-3300-41a4-b2a8-ed2708a0a27c/domestic-dog_thumb_3x2.jpg'); 
+    height: 300px; 
+    background-size: cover;
+}
+
+.elemento5 {
+    font-size: 100px;
+}
+
+.elemento6 {
+    color: red;
+}
+
+.elemento7 {
+    font-size: 24px; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-style: italic; 
+    font-weight: bold;
+}
+
+.elemento8 {
+    list-style: circle;
+}
+
+.elemento9 {
+    background-color: #333333; 
+    color: #ffffff; 
+    padding: 20px; 
+    margin-bottom: 20px;
+}
+
+.elemento10 {
+    margin: 0px;
+}
+
+.elemento11 {
+    width: 200px; 
+    height: 100px; 
+    overflow: scroll;
+}
+
+.elemento12 {
+    display: inline-block; 
+    background-color: #333333; 
+    color: #ffffff;
+}
+
+.elemento13 {
+    position: relative; 
+    width: 300px; 
+    height: 200px; 
+    border: 1px solid #333333;
+}
+
+.elemento14 {
+    position: absolute; 
+    top: 10px; 
+    right: 10px; 
+    background-color: #333333; 
+    color: #ffffff;
+}
+
+.elemento15 {
+    background-image: url('https://paradepets.com/.image/t_share/MTkxMzY1Nzg4NjczMzIwNTQ2/cutest-dog-breeds-jpg.jpg'); 
+    height: 150px; 
+    width: 200px; 
+    background-size: cover;
+}
+
+.elemento16 {
+    color:white;
+}
+
+.elemento17 {
+    background-image: url('https://paradepets.com/.image/t_share/MTkxMzY1Nzg4NjczMzIwNTQ2/cutest-dog-breeds-jpg.jpg'); 
+    height: 150px; 
+    width: 200px; 
+    background-size: cover; 
+    filter: grayscale(100%);
+}
+
+.elemento18 {
+    color:white;
+}
+
+.elemento19 {
+    display: inline-block; 
+    background-color: #333333; 
+    color: #ffffff; 
+    padding: 10px; 
+    margin:5px;
+}
+
+.elemento20 {
+    position: relative; 
+    width: 300px; 
+    height: 200px; 
+    border: 1px solid #333333;
+}
+
+.elemento21 {
+    position: absolute; 
+    top: 10px; 
+    right: 10px; 
+    background-color: #333333; 
+    color: #ffffff;
+}
+
+
