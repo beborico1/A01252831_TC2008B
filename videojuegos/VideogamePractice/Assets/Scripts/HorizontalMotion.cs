@@ -8,6 +8,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class HorizontalMotion : MonoBehaviour {
+    [SerializeField] float speed;
+
     Vector3 move;
 
     void Start() { // Start is called before the first frame update
@@ -19,6 +21,6 @@ public class HorizontalMotion : MonoBehaviour {
 
         Debug.Log("X motion: " + move.x); // Esto es como un print
 
-        transform.Translate(move);
+        transform.Translate(move * speed * Time.deltaTime);
     }
 }
