@@ -18,5 +18,7 @@ public class HorizontalMotion : MonoBehaviour {
         move.x = Input.GetAxis("Horizontal");
 
         Debug.Log("X motion: " + move.x); // Esto es como un print
+
+        transform.Translate(move);
     }
 }
