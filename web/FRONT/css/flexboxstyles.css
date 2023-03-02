@@ -156,7 +156,7 @@ a {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: darkslategray;
+    background-color: red;
     padding-top: 20px;
     padding-bottom: 20px;
     position: fixed;
