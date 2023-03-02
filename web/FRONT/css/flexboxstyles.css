@@ -148,7 +148,6 @@ a {
     font-size: 12px;
     text-align: center;
     width: 100%;
-    background-color: red;
 }
 
 .footer {
@@ -156,7 +155,7 @@ a {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: red;
+    background-color: darkslategray;
     padding-top: 20px;
     padding-bottom: 20px;
     position: fixed;
