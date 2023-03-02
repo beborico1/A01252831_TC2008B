@@ -144,6 +144,8 @@ a {
     color: white;
     font-weight: 200;
     font-size: 12px;
+    font-align: center;
+    width: 100%;
 }
 
 .footer {
@@ -153,8 +155,6 @@ a {
     align-items: center;
     background-color: darkslategray;
     padding-top: 20px;
-    padding-right: 50px;
-    padding-left: 50px;
     padding-bottom: 20px;
     position: fixed;
     bottom: 0;
