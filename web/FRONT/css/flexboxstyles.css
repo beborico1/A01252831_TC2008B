@@ -94,6 +94,7 @@ a {
     font-weight: 700;
     font-size: 17px;
     margin-right: 30px;
+    font-family:Verdana, Geneva, sans-serif;
 }
 
 .newsletter-button {
@@ -102,6 +103,7 @@ a {
     color: white;
     border-width: 0px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .content {
