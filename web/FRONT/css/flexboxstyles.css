@@ -146,7 +146,7 @@ a {
     color: white;
     font-weight: 200;
     font-size: 12px;
-    font-align: center;
+    text-align: center;
     width: 100%;
     background-color: red;
 }
