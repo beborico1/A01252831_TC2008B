@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <script src="../js/script.js"></script>
+</head>
+<body>
+    <h1>Prueba estas funciones de javascript!</h1>
+    <small> Integrantes: Natalia A01781992, Bebo A01252831, David A01656030 </small>
+    
+    <div>
+        <p>Encontrar primer caracter no repetido</p>
+        <input onkeyup="primerNoRepetido()" type="text" id="textinput_primerNoRepetido" placeholder="abacddbec">
+        <p>Resultado: <span id="resultado_primerNoRepetido"></span></p>
+    </div>
+
+    <div style="margin-top: 100px;">
+        <p>Bubble Sort!, agrega los numeros que quieres ordenar separados por comas</p>
+        <input type="text" id="textinput_bubbleSort" placeholder="Ingresar numeros">
+        <button onclick="bubbleSort()">Ordenar</button>
+        <p>Resultado: <span id="resultado_bubbleSort"></span></p>
+    </div>
+
+    <div style="margin-top: 100px;">
+        <p>Voltear arreglo!, agrega los elementos separados por comas</p>
+        <input type="text" id="textinput_reverse" placeholder="Ingresar elementos">
+        <button onclick="editarArreglo()">Editar</button>
+        <button onclick="regresaUnNuevoArreglo()">Nuevo</button>
+        <p>Arreglo: <span id="resultado_reverseOG"></span></p>
+        <p>Nuevo Arreglo: <span id="resultado_reverse"></span></p>
+    </div>
+
+    <div style="margin-top: 100px;">
+        <p>Capitalizar texto</p>
+        <input onkeyup="capitalizar()" type="text" id="textinput_capitalize" placeholder="Ingresar texto">
+        <p>Resultado: <span id="resultado_capitalize"></span></p>
+    </div>
+
+    <div style="margin-top: 100px;">
+        <p>Mayor comun divisor!</p>
+        <input type="text" id="textinput_num1" placeholder="Ingresar el primer numero">
+        <input type="text" id="textinput_num2" placeholder="Ingresar el segundo numero">
+        <button onclick="maximoComunDivisior()">Encontrar mayor comun divisor</button>
+        <p>Resultado: <span id="resultado_mayorDivisor"></span></p>
+    </div>
+
+    <div style="margin-top: 100px;">
+        <p>Hacker Speak!</p>
+        <input onkeyup="HackerSpeak()" type="text" id="textinput_hackerspeak" placeholder="Ingresar el texto">
+        <p>Resultado: <span id="resultado_hackerspeak"></span></p>
+    </div>
+
+    <div style="margin-top: 100px;">
+        <p>Factores!</p>
+        <input type="text" id="textinput_factor" placeholder="Ingresar el numero">
+        <button onclick="Factores()">Obtener factores</button>
+        <p>Resultado: <span id="resultado_factor"></span></p>
+    </div>
+
+    <div style="margin-top: 100px;">
+        <p>Quitar duplicados!, agrega los elementos separados por comas</p>
+        <input type="text" id="textinput_noduplicados" placeholder="Ingresar elementos">
+        <button onclick="Duplicados()">Eliminar</button>
+        <p>Lista sin duplicados: <span id="resultado_noduplicados"></span></p>
+    </div>
+
+    <div style="margin-top: 100px;">
+        <p>Encontrar longitud de la palabra mas corta!, agrega las palabras separadas por coma </p>
+        <input type="text" id="textinput_longitud" placeholder="Ingresar palabras">
+        <button onclick="Longitud()">Encontrar</button>
+        <p>Resutlado: <span id="resultado_longitud"></span></p>
+    </div>
+
+    <div style="margin-top: 100px;">
+        <p>Es palíndromo?, ingresa una palabra para confirmar si es palíndromo. </p>
+        <input type="text" id="textinput_palindromo" placeholder="Ingresar palabra">
+        <button onclick="EsPalindromo()">Ingresar</button>
+        <p>Resultado: <span id="resultado_palindromo"></span></p>
+    </div>
+
+    <!-- Ejercicio 11 HTML -->
+    <div style="margin-top: 100px;">
+        <p>Ordenar letras de palabra: </p>
+        <input type="text" id="myInput" placeholder="Ingresa aqui el texto" onkeyup="ordenarAZPalabra()">
+        <p>Resultado: <span id="myList"></span></p>
+    </div>
+
+    <div style="margin-top: 100px;">
+        <p>Ordenar palabras alfabeticamente, ingresa las palabras separadas por coma. </p>
+        <input type="text" id="textinput_ordenarAZList" placeholder="Ingresar palabras">
+        <button onclick="ordenarAZList()">Ordenar</button>
+        <p>Resultado: <span id="resultado_ordenarAZList"></span></p>
+    </div>
+
+    <div style="margin-top: 100px;">
+        <p>Calcular la mediana y la moda! Ingresa los numeros separados por comas</p>
+        <input type="text" id="textinput_medianaymoda" placeholder="Ingresar numero">
+        <button onclick="MedianaYModa()">Calcular</button>
+        <p>Mediana: <span id="resultado_mediana"></span></p>
+        <p>Moda: <span id="resultado_moda"></span></p>
+    </div>
+
+    <div style="margin-top: 100px;">
+        <p>Obtener la palabra mas frecuente!, ingresa las palabras separadas por coma</p>
+        <input type="text" id="textinput_masfrecuente" placeholder="Ingresar palabras">
+        <button onclick="cadenaMasFrecuente()">Obtener</button>
+        <p>Palabra: <span id="resultado_masfrecuente"></span></p>
+    </div>
+
+    <div style="margin-top: 100px;">
+        <p>Es potencia de dos?, ingresa aqui el numero para averiguar</p>
+        <input type="text" id="textinput_potenciados" placeholder="Ingresar numero">
+        <button onclick="esPotenciaDeDos()">Averiguar</button>
+        <p>Resultado: <span id="resultado_potenciados"></span></p>
+    </div>
+
+    <div style="margin-top: 100px;">
+        <p>Ordenar numeros de forma descendiente, ingresa los numeros separados por comas</p>
+        <input type="text" id="textinput_ordenDescendente" placeholder="Ingresar numeros">
+        <button onclick="ordenDescendente()">Ordenar</button>
+        <p>Resultado: <span id="resultado_ordenDescendente"></span></p>
+    </div>
+
+</body>
+</html>
